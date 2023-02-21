@@ -135,6 +135,11 @@ body{
     color: var(--hospital-green);
     text-decoration: none;
 }
+.value{
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    margin: 8px 0 32px 0;
+}
 @media(max-width: 640px){
     .logo{
         display: block;
@@ -142,7 +147,7 @@ body{
     .secondary-button{
         position: absolute;
         bottom: 24px;
-        width: inherit;
+        width: 300px;
     }
     .form{
         height: 100%;
